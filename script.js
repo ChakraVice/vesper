@@ -108,7 +108,7 @@ const download = (url) => {
     })
     .then((data) => {
       if (data == 1) {
-        alert("Error!");
+        alert("エラー: URLが正しくない可能性があります");
         return;
       }
       loader.style.display = "none";

@@ -108,7 +108,7 @@ const download = (url) => {
     })
     .then((data) => {
       if (data == 1) {
-        alert("エラー: URLが正しくない可能性があります");
+        alert("エラー: URLが正しくない可能性があります。YoutubeのURLかどうか確認してください。");
         return;
       }
       loader.style.display = "none";
